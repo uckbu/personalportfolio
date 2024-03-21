@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="wallah this is so much fun to make">
+    <meta name="author" content="">
+    <title>uckbu portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Akshar:regular,500" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+
+<body id="iffr">
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+        </div>
+        <div class="navbar-end py-4">
+            <a href="about.html" class="navbar-item has-text-dark button mx-2"> about me </a>
+            <a href="music.html" class="navbar-item has-text-dark button mx-2"> music </a>
+            <a href="games.html" class="navbar-item has-text-dark button mx-2"> games </a>
+            <a href="socials.html" class="navbar-item has-text-dark button mx-2"> socials </a>
+            <a href="projects.html" class="navbar-item has-text-dark button mx-2"> projects </a>
+        </div>
+    </div>
+    <section class="hero hero-cover-1 overlay is-light is-medium">
+        <div id="ipwo9">
+            <nav class="navbar is-transparent is-fixed-top">
+                <div class="navbar-brand"><a href="#" class="navbar-item navbar-logo"><img src="assets/img/Porsche_911-R-801x584.jpeg?AWSAccessKeyId=AKIATCXCZSEJK2YRVPVG&amp;Signature=KSYIjKygj6NF7TJH4ImyI9cO5hA%3D&amp;Expires=1667159588" alt="Logo" id="ily9q"></a>
+                    <div data-target="navbarExampleTransparentExample" class="navbar-burger"><span></span><span></span><span></span></div>
+                </div>
+            </nav><i id="i90n2">practice portfolio!</i><br>
+        </div>
+        <div class="hero-body has-text-centered"><img type="img" src="assets/img/porsche_purpie.jpg?AWSAccessKeyId=AKIATCXCZSEJK2YRVPVG&amp;Signature=30fTyCESciPvR4uo82ZQ%2Bdh%2FIjU%3D&amp;Expires=1663370963" id="in5gm">
+            <h1 id="iyji"><i id="ikvk">uckbu&nbsp;</i></h1>
+        </div>
+    </section>
+    <h2 id="i3jp8e" class="gallery-section"><i><span id="ighseh">cs projects</span></i><br></h2>
+    <div class="container mt-5 mb-5">
+        <div class="columns is-multiline mt-2 is-2">
+            <div class="column is-4">
+                <figure class="image"><img type="img" src="assets/img/5_stage_cs_final.png?AWSAccessKeyId=AKIATCXCZSEJK2YRVPVG&amp;Signature=St0RuSOy%2BOuTiVkSctBuAFm2jcM%3D&amp;Expires=1663371286" id="izg4l"></figure>
+                <div id="ivs6m">5-stage space invaders with boss fight, bullet count, difficulty and sound settings (full music and sound effects on by default)<br>Freshman compsci foundations, 2021 - Black credit<br></div>
+            </div>
+            <div class="column is-4">
+                <figure class="image"><img type="img" src="assets/img/csfinal_bossfight.png?AWSAccessKeyId=AKIATCXCZSEJK2YRVPVG&amp;Signature=CQI1%2B28jaIoT7%2FANuBCdtWgrOU4%3D&amp;Expires=1663377770" id="i3wkh"></figure>
+                <div id="ivb7s">Bossfight availavble at the end of the 5 stages, custom sprites represent all enemies and all 3 of the available player-controlled ships</div>
+            </div>
+            <div class="column is-4">
+                <figure class="image"><img type="img" src="assets/img/csfinal_intro_screen.png?AWSAccessKeyId=AKIATCXCZSEJK2YRVPVG&amp;Signature=5puAfVg0sSFJ7PbrUwtvxqwWvNU%3D&amp;Expires=1663377776" id="i4t4j"></figure>
+                <div id="ic2ey">Opening screen of the game, labeled on top with a play and settings button. Opening settings will show sound, difficulty and display settings. Stars in the galaxy background move downwards.<br></div>
+            </div>
+            <div class="column is-4">
+                <figure class="image"></figure>
+            </div>
+            <div class="column is-4">
+                <figure class="image"></figure>
+            </div>
+            <div class="column is-4">
+                <figure class="image"></figure>
+            </div>
+        </div>
+    </div>
+    <figure class="image is-128x128"></figure>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+                // Add a click event on each of them
+                $navbarBurgers.forEach(el => {
+                    el.addEventListener('click', () => {
+                        // Get the target from the "data-target" attribute
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+                    });
+                });
+            }
+        });
+
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script>
+        AOS.init();
+
+    </script>
+</body>
+
+</html>
